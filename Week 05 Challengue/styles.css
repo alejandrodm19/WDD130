@@ -1,0 +1,18 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #737373;
+    /* display: inline-block; */
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container img{
+    border-radius: 50%;
+    border: 15px solid #444444;
+    width: 200px;
+    height: auto;
+    margin: 30px;
+}

@@ -181,6 +181,7 @@ footer .social img {
     display: grid;
     grid-template-columns: 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr;
 }
+/* Cards */
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;

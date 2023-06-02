@@ -126,10 +126,6 @@ nav a{
     font-size: 2em;
     margin-top: 10px;
 }
-.home-grid{
-    display: grid;
-    grid-template-columns: 10/10;
-}
 h4{
     color: black;
 }
@@ -180,6 +176,10 @@ footer .social img {
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr;
 }
 .rivers-card{
     grid-column: 2/4;

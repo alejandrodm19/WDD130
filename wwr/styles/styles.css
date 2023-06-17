@@ -262,7 +262,7 @@ p{
 .grid-container{
   background-size: cover;
   display: grid;
-  grid-template-columns: 3fr 2fr; 
+  grid-template-columns: 1fr 2fr; 
   column-gap: 4rem;
   row-gap: 4rem;
 }

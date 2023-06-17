@@ -237,3 +237,38 @@ footer .social img {
 p{
     font-family: sans-serif;
 }
+/* Rivers HTML */
+.title-river{
+  text-align: center;
+  font-family: 'Comme', sans-serif;
+}
+
+.container-river{
+  max-width: 120rem;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.principal-container{
+  padding-top: 1rem;
+  background-size: cover;
+}
+
+.image-river{
+  box-shadow: 1rem 1rem 1rem gray;
+  background-size: 100%;
+}
+
+.grid-container{
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 3fr 2fr; 
+  column-gap: 4rem;
+  row-gap: 4rem;
+}
+
+.river-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

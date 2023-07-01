@@ -75,7 +75,7 @@ img{
 
 .banner{
     margin-top: 5rem;
-    background-image: url(/img/rsz_clement-helardot-95yrwf6cnw8-unsplash.jpg) !important;
+    background-image: url(/img/rsz_clement-helardot-95yrwf6cnw8-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

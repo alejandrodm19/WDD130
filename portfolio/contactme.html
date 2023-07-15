@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="css/app.css">
-    <link rel="shortcut icon" href="img/Logo Portfolio.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/LogoPortfolio.png" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <header class="principal-logo">
         <img src="img/rsz_logo_portfolio.png" alt="Logo Web">
     </header>
     <div class="contenedor-navegacion">
@@ -19,31 +19,61 @@
         </nav>
     </div>
 
-    <main>
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-                <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" />
-                </li>
-                <li>
-                    <label for="mail">Last Name:</label>
-                    <input type="email" id="mail" name="user_email" />
-                </li>
-                <li>
-                    <label for="mail">Email:</label>
-                    <input type="email" id="mail" name="user_email" />
-                </li>
-                <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </li>
-                <li class="button">
-                    <button type="submit">Send your message</button>
-                </li>
+    <main class="principal-content container">
+        <form class="form">
+            <fieldset>
+                <legend>Your Info</legend>
+                
+                <div class="option">
+                    <label for="name">Name: </label>
+                    <input  id="name" type="text" placeholder="Your Name" required>
+                </div>
 
-            </ul>
+                <div class="option">
+                    <label for="asunto">Last Name:</label>
+                    <input id="asunto" type="text" placeholder="Last Name"  required>
+                </div>
+
+                <div class="option">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" placeholder="Your Email" >
+                </div>
+
+                <div class="option">
+                    <label for="tel">Phone Number:</label>
+                    <input id="tel" type="tel" placeholder="Phone Number" >
+                </div>
+
+                <div class="option">
+                    <label for="tel">Message:</label>
+                    <textarea rows="10" cols="20"></textarea>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Country</legend>
+
+                <div class="option">
+                    <label for="pais">Country</label>
+                    <select id="pais">
+                        <option value="">-- Choose -- </option>
+                        <option value="MX">México</option>
+                        <option value="PR">Perú</option>
+                        <option value="CO">Colombia</option>
+                        <option value="AR">Argentina</option>
+                        <option value="ES">España</option>
+                        <option value="CL">Chile</option>
+                        <option value="US">USA</option>
+                    </select>
+
+                </div>
+
+            </fieldset>
+
+            <input class="btn" type="submit" value="Send Message" >
         </form>
+        
     </main>
 
         <footer>

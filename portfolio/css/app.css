@@ -90,7 +90,6 @@ img{
 .about-me{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-columns: repeat(auto-fit, min-max(25rem, 1fr));
     column-gap: 4rem;
 }
 .information{
